@@ -79,10 +79,10 @@
     return $('credits').style.display = 'block';
   };
 
-  $('credits').onclick = function() {
-    $('step-1').style.display = 'block';
-    return $('credits').style.display = 'none';
-  };
+  // $('credits').onclick = function() {
+  //   $('step-1').style.display = 'block';
+  //   return $('credits').style.display = 'none';
+  // };
 
   hasWebGL = function() {
     var canvas, gl;

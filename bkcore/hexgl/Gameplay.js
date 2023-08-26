@@ -174,6 +174,10 @@ bkcore.hexgl.Gameplay.prototype.end = function(result)
 		if(this.hud != null) this.hud.display("Destroyed");
 		this.step = 100;
 	}
+	console.log("=================>");
+	console.log(this.score); // {h: 0, m: 2, s: 14, ms: 997} hour,minute,seconds,milliseconds
+	console.log(this.result); //DESTROYED or FINISH
+	console.log("=================>");
 }
 
 bkcore.hexgl.Gameplay.prototype.update = function()
